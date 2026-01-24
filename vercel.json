@@ -1,5 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/video", "destination": "/api/video" }
-  ]
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }]
 }
